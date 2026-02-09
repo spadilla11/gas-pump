@@ -27,9 +27,9 @@ public class Main{
         return price_per_g;
     }
 
-    public static float get_gallons(float price, float grade){
-        if (price >= 0 && grade >= 0){
-            float gallons = price / grade;
+    public static float get_gallons(float money_spent, float grade){
+        if (money_spent >= 0 && grade >= 0){
+            float gallons = money_spent / grade;
             return gallons;
         }
         else {
